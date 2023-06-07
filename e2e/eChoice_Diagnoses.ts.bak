@@ -47,7 +47,7 @@ test('Create and Select Resident', async () => {
     await page.getByLabel('Surname *').fill('Automation');
     await page.getByLabel('Medicare Number *').click();
     await page.getByLabel('Medicare Number *').fill('12345');
-    await page.getByLabel('Date of Birth *').fill('1950-01-01');
+    await page.getByLabel('Date of Birth *').fill('1945-01-01');
     await page.getByLabel('Admission Date *').fill('2023-03-03');
     await page.getByLabel('Room Number').click();
     await page.getByLabel('Room Number').fill('12345');
